@@ -1,0 +1,28 @@
+{
+  "name": "map_stats",
+  "version": "1.0.0",
+  "description": "Depuis une base de données de la World Bank Data, le but ici est de faire une carte interactive exploitant ces données. La base utilisée est 'Gender Statistics'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDylan-source/map_stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CDylan-source/map_stats/issues"
+  },
+  "homepage": "https://github.com/CDylan-source/map_stats#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "proxy": "http://localhost:3001"
+}
